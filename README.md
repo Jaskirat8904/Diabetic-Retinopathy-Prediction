@@ -21,7 +21,7 @@ No DR • Mild NPDR • Moderate NPDR • Severe NPDR • Proliferative DR
 
 ---
 
-## 📊 Model Performance (Validation Set)
+## 📊 Model Performance (Test Set)
 
 | Metric       | Value     |
 |--------------|-----------|
