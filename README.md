@@ -79,7 +79,7 @@ An AI-powered screening tool that:
 - **Comprehensive Reports**: Downloadable PDF/TXT/CSV formats
 
 ### 🎨 User Interface
-- **Glassmorphism Design**: Modern dark medical UI (2026 standards)
+- **Glassmorphism Design**: Modern dark medical UI
 - **Interactive Visualizations**: Plotly charts (bar, donut, heatmaps)
 - **Real-Time Processing**: Live progress indicators
 - **Multi-Tab Analysis**: Probability, Clinical Assessment, Technical Details, Reports
@@ -117,5 +117,27 @@ An AI-powered screening tool that:
 | **Severe NPDR** | 97.1% | 97.1% | 89.2% | 92.9% | 37 |
 | **Proliferative DR** | 92.5% | 91.0% | 98.4% | 94.6% | 62 |
 
-### Confusion Matrix
+---
 
+## 🛠️ Technology Stack
+
+### Core Technologies
+- **Frontend**: Streamlit 1.30+
+- **Backend**: Python 3.8+
+- **Deep Learning**: PyTorch 2.0+, TorchVision
+- **Model**: ResNet-152 (60.2M parameters)
+- **Visualization**: Plotly, Matplotlib
+- **Deployment**: Streamlit Cloud / Docker
+
+### Libraries & Dependencies
+```python
+streamlit>=1.30.0
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+pandas>=2.0.0
+pillow>=10.0.0
+plotly>=5.17.0
+matplotlib>=3.7.0
+scipy>=1.11.0
+scikit-learn>=1.3.0
