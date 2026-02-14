@@ -31,17 +31,7 @@
 - [Overview](#-overview)
 - [Features](#-features)
 - [Model Performance](#-model-performance)
-- [Technology Stack](#-technology-stack)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Model Architecture](#-model-architecture)
-- [Clinical Classification](#-clinical-classification)
-- [Screenshots](#-screenshots)
-- [Roadmap](#-roadmap)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Acknowledgments](#-acknowledgments)
-- [Contact](#-contact)
+
 
 ---
 
