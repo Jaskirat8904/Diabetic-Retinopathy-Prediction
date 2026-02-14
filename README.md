@@ -1,50 +1,34 @@
-# Diabetic Retinopathy Prediction
 
-👁️ **AI-powered screening tool for early detection of Diabetic Retinopathy stages**
+### Validation Curves
 
-Built with **Streamlit** • **ResNet-152** • **98.09% validation accuracy**
-
----
-
-## 🌟 Project Highlights
-
-- Single-file **Streamlit** web application  
-- Upload fundus image or use webcam  
-- Instant prediction of DR severity (5 classes)  
-- Confidence percentage displayed  
-- Clean clinical-style recommendation text  
-- Probability bar chart visualization  
-- Simple report generation & download  
-
-**Classes predicted**  
-No DR • Mild NPDR • Moderate NPDR • Severe NPDR • Proliferative DR
+<div align="center">
+<img src="Screenshots/training_curves.png" alt="Training Curves" width="800px"/>
+</div>
 
 ---
 
-## 📊 Model Performance (Test Set)
+## 🛠️ Technology Stack
 
-| Metric       | Value     |
-|--------------|-----------|
-| Accuracy     | **98.09%** |
-| Precision    | 98.13%    |
-| Recall       | 98.09%    |
-| F1-Score     | 98.09%    |
+### Core Technologies
 
-### Confusion Matrix
 
-| Actual \ Predicted | No DR | Mild | Moderate | Severe | PDR |
-|---------------------|-------|------|----------|--------|-----|
-| **No DR**           | 361   | 0    | 0        | 0      | 0   |
-| **Mild**            | 0     | 69   | 3        | 0      | 1   |
-| **Moderate**        | 0     | 1    | 194      | 1      | 3   |
-| **Severe**          | 0     | 0    | 2        | 33     | 2   |
-| **PDR**             | 0     | 0    | 1        | 0      | 61  |
+### Libraries & Dependencies
 
----
+```python
+# Core
+streamlit>=1.30.0
+torch>=2.0.0
+torchvision>=0.15.0
 
-## 🚀 How to Run Locally
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+pillow>=10.0.0
 
-### Requirements
+# Visualization
+plotly>=5.17.0
+matplotlib>=3.7.0
 
-```bash
-pip install streamlit torch torchvision torchaudio pillow numpy pandas matplotlib
+# Utilities
+scipy>=1.11.0
+scikit-learn>=1.3.0
