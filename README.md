@@ -14,7 +14,7 @@
 
 [🚀 Live Demo](https://your-demo-link.com) • [📖 Documentation](https://github.com/Jaskirat8904/Diabetic-Retinopathy-Prediction/wiki) • [🐛 Report Bug](https://github.com/Jaskirat8904/Diabetic-Retinopathy-Prediction/issues) • [✨ Request Feature](https://github.com/Jaskirat8904/Diabetic-Retinopathy-Prediction/issues)
 
-![RetinaScan AI Pro Interface](Screenshots/6.png)
+![RetinaScan AI Pro Interface](Screenshots/1.png)
 
 ---
 
