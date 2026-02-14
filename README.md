@@ -14,7 +14,7 @@
 
 [🚀 Live Demo](https://your-demo-link.com) • [📖 Documentation](https://github.com/Jaskirat8904/Diabetic-Retinopathy-Prediction/wiki) • [🐛 Report Bug](https://github.com/Jaskirat8904/Diabetic-Retinopathy-Prediction/issues) • [✨ Request Feature](https://github.com/Jaskirat8904/Diabetic-Retinopathy-Prediction/issues)
 
-<img src="Screenshots/6.jpg" alt="RetinaScan AI Pro Interface" width="900px"/>
+![RetinaScan AI Pro Interface](Screenshots/6.jpg)
 
 ---
 
@@ -48,6 +48,8 @@
 ## 🔍 Overview
 
 **RetinaScan AI Pro** is an enterprise-grade clinical diagnostic platform that leverages deep learning to detect and classify Diabetic Retinopathy (DR) from retinal fundus images. Built with a state-of-the-art **ResNet-152 architecture**, the system achieves **98.09% accuracy** on the test set, making it suitable for clinical screening and triage applications.
+
+![Diagnostic Interface](Screenshots/3.jpg)
 
 ### 🎯 Problem Statement
 
